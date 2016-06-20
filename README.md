@@ -7,7 +7,7 @@ The name 'CRFIDVirus' is an artefact of this project's past, and should be chang
 Much of the source code for this project was borrowed from the WISP5 project, the BLOC project, and the Impinj Octane SDK.
  * WISP5: http://github.com/wisp/wisp5
  * BLOC: https://github.com/kmarquet/bloc
- * Impinj Ocatne SDK: https://support.impinj.com/hc/en-us/articles/202755268-Octane-SDK
+ * Impinj Octane SDK: https://support.impinj.com/hc/en-us/articles/202755268-Octane-SDK
 
 Layout
 ----
