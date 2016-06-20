@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/PRESENT_SPEED/present_speed.c 
+
+OBJS += \
+./bloc/PRESENT_SPEED/present_speed.obj 
+
+C_DEPS += \
+./bloc/PRESENT_SPEED/present_speed.d 
+
+C_DEPS__QUOTED += \
+"bloc\PRESENT_SPEED\present_speed.d" 
+
+OBJS__QUOTED += \
+"bloc\PRESENT_SPEED\present_speed.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/PRESENT_SPEED/present_speed.c" 
+
+

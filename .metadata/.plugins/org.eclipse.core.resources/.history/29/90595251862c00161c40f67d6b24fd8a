@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/Piccolo80/piccolo80.c 
+
+OBJS += \
+./bloc/Piccolo80/piccolo80.obj 
+
+C_DEPS += \
+./bloc/Piccolo80/piccolo80.d 
+
+C_DEPS__QUOTED += \
+"bloc\Piccolo80\piccolo80.d" 
+
+OBJS__QUOTED += \
+"bloc\Piccolo80\piccolo80.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/Piccolo80/piccolo80.c" 
+
+

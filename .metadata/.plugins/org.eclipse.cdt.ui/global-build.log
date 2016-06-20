@@ -1,0 +1,457 @@
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRIFDVirusDemo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CRIFDVirusDemo/bloc/utils" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 82: warning #225-D: function "start_encrypt" declared implicitly
+"../main.c", line 140: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 131: remark #1535-D: (ULP 8.1) variable "bwr_array" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 15: remark #1535-D: (ULP 8.1) variable "password" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 17: remark #1535-D: (ULP 8.1) variable "key" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../main.c'
+' '
+'Building target: CRIFDVirusDemo.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -z -m"CRIFDVirusDemo.map" --heap_size=160 --stack_size=160 --use_hw_mpy=F5 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" -i"C:/ti/ccsv6/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccsv6/ccs_base/msp430/lib/FR59xx" --reread_libs --priority --warn_sections --display_error_number --diag_wrap=off --xml_link_info="CRIFDVirusDemo_linkInfo.xml" --rom_model -o "CRIFDVirusDemo.out" "./catchall.obj" "./isr-link.obj" "./main.obj" "./bloc/AES/aes-naive.obj" "./bloc/AES/templates/block-modes.obj" "./bloc/AES/templates/cmac.obj" "./bloc/utils/tools.obj" "../lnk_msp430fr5969.cmd"  -llibc.a -l"C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base/build/wisp-base.lib" -llibmath.a 
+<Linking>
+'Finished building target: CRIFDVirusDemo.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRIFDVirusDemo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRIFDVirusDemo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CRIFDVirusDemo/bloc/utils" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 83: warning #225-D: function "start_encrypt" declared implicitly
+"../main.c", line 141: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 132: remark #1535-D: (ULP 8.1) variable "bwr_array" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 15: remark #1535-D: (ULP 8.1) variable "password" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 17: remark #1535-D: (ULP 8.1) variable "key" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../main.c'
+' '
+'Building target: CRIFDVirusDemo.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -z -m"CRIFDVirusDemo.map" --heap_size=160 --stack_size=160 --use_hw_mpy=F5 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" -i"C:/ti/ccsv6/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccsv6/ccs_base/msp430/lib/FR59xx" --reread_libs --priority --warn_sections --display_error_number --diag_wrap=off --xml_link_info="CRIFDVirusDemo_linkInfo.xml" --rom_model -o "CRIFDVirusDemo.out" "./catchall.obj" "./isr-link.obj" "./main.obj" "./bloc/AES/aes-naive.obj" "./bloc/AES/templates/block-modes.obj" "./bloc/AES/templates/cmac.obj" "./bloc/utils/tools.obj" "../lnk_msp430fr5969.cmd"  -llibc.a -l"C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base/build/wisp-base.lib" -llibmath.a 
+<Linking>
+'Finished building target: CRIFDVirusDemo.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRIFDVirusDemo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CRIFDVirusDemo/bloc/utils" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 79: warning #225-D: function "start_encrypt" declared implicitly
+"../main.c", line 137: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 128: remark #1535-D: (ULP 8.1) variable "bwr_array" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 15: remark #1535-D: (ULP 8.1) variable "password" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 17: remark #1535-D: (ULP 8.1) variable "key" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 18: remark #1535-D: (ULP 8.1) variable "rkey" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../main.c'
+' '
+'Building file: ../bloc/AES/aes-naive.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CRIFDVirusDemo/bloc/utils" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="bloc/AES/aes-naive.d" --obj_directory="bloc/AES"  "../bloc/AES/aes-naive.c"
+"../bloc/AES/aes-naive.c", line 84: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 84: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../bloc/AES/aes-naive.c", line 92: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 234: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/aes-naive.c", line 235: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 235: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 290: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 291: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 292: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 293: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 295: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 296: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 297: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 298: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 308: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/aes-naive.c", line 309: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 309: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 318: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/aes-naive.c", line 319: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 319: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 355: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 356: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 357: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 358: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 365: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 366: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 367: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 368: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 394: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/aes-naive.c", line 394: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+"../bloc/AES/aes-naive.c", line 396: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 396: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 400: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../bloc/AES/aes-naive.c", line 405: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../bloc/AES/aes-naive.c", line 408: remark #2553-D: (ULP 14.1) Array index (involving "rcon_index") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 436: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/aes-naive.c", line 441: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../bloc/AES/aes-naive.c", line 445: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../bloc/AES/aes-naive.c", line 452: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../bloc/AES/aes-naive.c", line 457: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+'Finished building: ../bloc/AES/aes-naive.c'
+' '
+'Building target: CRIFDVirusDemo.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -z -m"CRIFDVirusDemo.map" --heap_size=160 --stack_size=160 --use_hw_mpy=F5 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" -i"C:/ti/ccsv6/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccsv6/ccs_base/msp430/lib/FR59xx" --reread_libs --priority --warn_sections --display_error_number --diag_wrap=off --xml_link_info="CRIFDVirusDemo_linkInfo.xml" --rom_model -o "CRIFDVirusDemo.out" "./catchall.obj" "./isr-link.obj" "./main.obj" "./bloc/AES/aes-naive.obj" "./bloc/AES/templates/block-modes.obj" "./bloc/AES/templates/cmac.obj" "./bloc/utils/tools.obj" "../lnk_msp430fr5969.cmd"  -llibc.a -l"C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base/build/wisp-base.lib" -llibmath.a 
+<Linking>
+'Finished building target: CRIFDVirusDemo.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRIFDVirusDemo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CRIFDVirusDemo/bloc/utils" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 81: warning #225-D: function "start_encrypt" declared implicitly
+"../main.c", line 139: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 130: remark #1535-D: (ULP 8.1) variable "bwr_array" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 15: remark #1535-D: (ULP 8.1) variable "password" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 17: remark #1535-D: (ULP 8.1) variable "key" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 18: remark #1535-D: (ULP 8.1) variable "rkey" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../main.c'
+' '
+'Building file: ../bloc/AES/aes-naive.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CRIFDVirusDemo/bloc/utils" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="bloc/AES/aes-naive.d" --obj_directory="bloc/AES"  "../bloc/AES/aes-naive.c"
+"../bloc/AES/aes-naive.c", line 87: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 87: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../bloc/AES/aes-naive.c", line 95: remark #1545-D: (ULP 14.1) Array index of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 237: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/aes-naive.c", line 238: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 238: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 293: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 294: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 295: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 296: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 298: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 299: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 300: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 301: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 311: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/aes-naive.c", line 312: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 312: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 321: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/aes-naive.c", line 322: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 322: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 358: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 359: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 360: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 361: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 368: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 369: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 370: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 371: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 397: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/aes-naive.c", line 397: remark #1543-D: (ULP 12.2) Detected for loop with repetitive data transfer. Recommend using DMA
+"../bloc/AES/aes-naive.c", line 399: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 399: remark #2553-D: (ULP 14.1) Array index (involving "i") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 403: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../bloc/AES/aes-naive.c", line 408: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../bloc/AES/aes-naive.c", line 411: remark #2553-D: (ULP 14.1) Array index (involving "rcon_index") of type "int". Recommend using "unsigned int"
+"../bloc/AES/aes-naive.c", line 439: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/aes-naive.c", line 444: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../bloc/AES/aes-naive.c", line 448: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../bloc/AES/aes-naive.c", line 455: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+"../bloc/AES/aes-naive.c", line 460: remark #1533-D: (ULP 6.1) Detected use of multiplication on a device that has no hardware multiplier
+'Finished building: ../bloc/AES/aes-naive.c'
+' '
+'Building file: ../bloc/AES/templates/block-modes.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CRIFDVirusDemo/bloc/utils" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="bloc/AES/templates/block-modes.d" --obj_directory="bloc/AES/templates"  "../bloc/AES/templates/block-modes.c"
+"../bloc/AES/templates/block-modes.c", line 46: remark #2553-D: (ULP 14.1) Array index (involving "ctx") of type "int". Recommend using "unsigned int"
+"../bloc/AES/templates/block-modes.c", line 51: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/templates/block-modes.c", line 72: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/templates/block-modes.c", line 74: remark #2553-D: (ULP 14.1) Array index (involving "ctx") of type "int". Recommend using "unsigned int"
+"../bloc/AES/templates/block-modes.c", line 76: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/templates/block-modes.c", line 98: remark #2553-D: (ULP 14.1) Array index (involving "ctx") of type "int". Recommend using "unsigned int"
+"../bloc/AES/templates/block-modes.c", line 104: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/templates/block-modes.c", line 138: remark #2553-D: (ULP 14.1) Array index (involving "ctx") of type "int". Recommend using "unsigned int"
+"../bloc/AES/templates/block-modes.c", line 158: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/templates/block-modes.c", line 160: remark #2553-D: (ULP 14.1) Array index (involving "ctx") of type "int". Recommend using "unsigned int"
+"../bloc/AES/templates/block-modes.c", line 180: remark #2553-D: (ULP 14.1) Array index (involving "ctx") of type "int". Recommend using "unsigned int"
+"../bloc/AES/templates/block-modes.c", line 229: warning #188-D: pointless comparison of unsigned integer with zero
+"../bloc/AES/templates/block-modes.c", line 222: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/AES/templates/block-modes.c", line 224: remark #1530-D: (ULP 5.1) Detected modulo operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../bloc/AES/templates/block-modes.c", line 238: remark #2553-D: (ULP 14.1) Array index (involving "ctx") of type "int". Recommend using "unsigned int"
+'Finished building: ../bloc/AES/templates/block-modes.c'
+' '
+'Building file: ../bloc/utils/tools.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CRIFDVirusDemo/bloc/utils" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="bloc/utils/tools.d" --obj_directory="bloc/utils"  "../bloc/utils/tools.c"
+"../bloc/utils/tools.c", line 40: warning #225-D: function "nop" declared implicitly
+"../bloc/utils/tools.c", line 36: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../bloc/utils/tools.c", line 38: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+'Finished building: ../bloc/utils/tools.c'
+' '
+'Building target: CRIFDVirusDemo.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -z -m"CRIFDVirusDemo.map" --heap_size=160 --stack_size=160 --use_hw_mpy=F5 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" -i"C:/ti/ccsv6/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccsv6/ccs_base/msp430/lib/FR59xx" --reread_libs --priority --warn_sections --display_error_number --diag_wrap=off --xml_link_info="CRIFDVirusDemo_linkInfo.xml" --rom_model -o "CRIFDVirusDemo.out" "./catchall.obj" "./isr-link.obj" "./main.obj" "./bloc/AES/aes-naive.obj" "./bloc/AES/templates/block-modes.obj" "./bloc/AES/templates/cmac.obj" "./bloc/utils/tools.obj" "../lnk_msp430fr5969.cmd"  -llibc.a -l"C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base/build/wisp-base.lib" -llibmath.a 
+<Linking>
+'Finished building target: CRIFDVirusDemo.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRIFDVirusDemo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CRIFDVirusDemo/bloc/utils" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 87: warning #225-D: function "start_encrypt" declared implicitly
+"../main.c", line 146: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 137: remark #1535-D: (ULP 8.1) variable "bwr_array" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 15: remark #1535-D: (ULP 8.1) variable "password" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 17: remark #1535-D: (ULP 8.1) variable "key" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 18: remark #1535-D: (ULP 8.1) variable "rkey" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../main.c'
+' '
+'Building target: CRIFDVirusDemo.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -z -m"CRIFDVirusDemo.map" --heap_size=160 --stack_size=160 --use_hw_mpy=F5 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" -i"C:/ti/ccsv6/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccsv6/ccs_base/msp430/lib/FR59xx" --reread_libs --priority --warn_sections --display_error_number --diag_wrap=off --xml_link_info="CRIFDVirusDemo_linkInfo.xml" --rom_model -o "CRIFDVirusDemo.out" "./catchall.obj" "./isr-link.obj" "./main.obj" "./bloc/AES/aes-naive.obj" "./bloc/AES/templates/block-modes.obj" "./bloc/AES/templates/cmac.obj" "./bloc/utils/tools.obj" "../lnk_msp430fr5969.cmd"  -llibc.a -l"C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base/build/wisp-base.lib" -llibmath.a 
+<Linking>
+'Finished building target: CRIFDVirusDemo.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRIFDVirusDemo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRIFDVirusDemo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CRIFDVirusDemo/bloc/utils" --include_path="C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="main.d"  "../main.c"
+"../main.c", line 87: warning #225-D: function "start_encrypt" declared implicitly
+"../main.c", line 148: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 139: remark #1535-D: (ULP 8.1) variable "bwr_array" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 15: remark #1535-D: (ULP 8.1) variable "password" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 17: remark #1535-D: (ULP 8.1) variable "key" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+"../main.c", line 18: remark #1535-D: (ULP 8.1) variable "rkey" is used as a constant. Recommend declaring variable as either 'static const' or 'const'
+'Finished building: ../main.c'
+' '
+'Building target: CRIFDVirusDemo.out'
+'Invoking: MSP430 Linker'
+"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --advice:power="all" --advice:hw_config="1" -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -z -m"CRIFDVirusDemo.map" --heap_size=160 --stack_size=160 --use_hw_mpy=F5 --cinit_hold_wdt=on -i"C:/ti/ccsv6/ccs_base/msp430/include" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/lib" -i"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" -i"C:/ti/ccsv6/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccsv6/ccs_base/msp430/lib/FR59xx" --reread_libs --priority --warn_sections --display_error_number --diag_wrap=off --xml_link_info="CRIFDVirusDemo_linkInfo.xml" --rom_model -o "CRIFDVirusDemo.out" "./catchall.obj" "./isr-link.obj" "./main.obj" "./bloc/AES/aes-naive.obj" "./bloc/AES/templates/block-modes.obj" "./bloc/AES/templates/cmac.obj" "./bloc/utils/tools.obj" "../lnk_msp430fr5969.cmd"  -llibc.a -l"C:/Users/Jonathan/Documents/ArchShare/Uni/MWN-WISP5/wisp5/CCS/wisp-base/build/wisp-base.lib" -llibmath.a 
+<Linking>
+'Finished building target: CRIFDVirusDemo.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRIFDVirusDemo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRIFDVirusDemo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRIFDVirusDemo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration build for project wisp-base ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project CRIFDVirusDemo ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****

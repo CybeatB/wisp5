@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/LED128_tdur/LED128_tdur.c 
+
+OBJS += \
+./bloc/LED128_tdur/LED128_tdur.obj 
+
+C_DEPS += \
+./bloc/LED128_tdur/LED128_tdur.d 
+
+C_DEPS__QUOTED += \
+"bloc\LED128_tdur\LED128_tdur.d" 
+
+OBJS__QUOTED += \
+"bloc\LED128_tdur\LED128_tdur.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/LED128_tdur/LED128_tdur.c" 
+
+

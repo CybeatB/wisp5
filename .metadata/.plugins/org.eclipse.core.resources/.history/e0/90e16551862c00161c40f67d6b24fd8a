@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/SPECK128_128/speck128_128.c 
+
+OBJS += \
+./bloc/SPECK128_128/speck128_128.obj 
+
+C_DEPS += \
+./bloc/SPECK128_128/speck128_128.d 
+
+C_DEPS__QUOTED += \
+"bloc\SPECK128_128\speck128_128.d" 
+
+OBJS__QUOTED += \
+"bloc\SPECK128_128\speck128_128.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/SPECK128_128/speck128_128.c" 
+
+

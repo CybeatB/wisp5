@@ -1,0 +1,30 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../wired/spi.c \
+../wired/uart.c 
+
+OBJS += \
+./wired/spi.obj \
+./wired/uart.obj 
+
+C_DEPS += \
+./wired/spi.d \
+./wired/uart.d 
+
+C_DEPS__QUOTED += \
+"wired\spi.d" \
+"wired\uart.d" 
+
+OBJS__QUOTED += \
+"wired\spi.obj" \
+"wired\uart.obj" 
+
+C_SRCS__QUOTED += \
+"../wired/spi.c" \
+"../wired/uart.c" 
+
+

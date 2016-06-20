@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/utils/tools.c 
+
+OBJS += \
+./bloc/utils/tools.obj 
+
+C_DEPS += \
+./bloc/utils/tools.d 
+
+C_DEPS__QUOTED += \
+"bloc\utils\tools.d" 
+
+OBJS__QUOTED += \
+"bloc\utils\tools.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/utils/tools.c" 
+
+

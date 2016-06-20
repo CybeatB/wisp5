@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/LED64/LED64.c 
+
+OBJS += \
+./bloc/LED64/LED64.obj 
+
+C_DEPS += \
+./bloc/LED64/LED64.d 
+
+C_DEPS__QUOTED += \
+"bloc\LED64\LED64.d" 
+
+OBJS__QUOTED += \
+"bloc\LED64\LED64.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/LED64/LED64.c" 
+
+

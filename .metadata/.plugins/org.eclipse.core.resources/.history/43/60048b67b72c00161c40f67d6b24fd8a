@@ -1,0 +1,90 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Each subdirectory must supply rules for building sources it contributes
+RFID/Clocking.obj: ../RFID/Clocking.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power=all --advice:hw_config=1 -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -k --preproc_with_compile --preproc_dependency="RFID/Clocking.d" --obj_directory="RFID" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+RFID/RX_ISR.obj: ../RFID/RX_ISR.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power=all --advice:hw_config=1 -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -k --preproc_with_compile --preproc_dependency="RFID/RX_ISR.d" --obj_directory="RFID" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+RFID/Timer0A0_ISR.obj: ../RFID/Timer0A0_ISR.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power=all --advice:hw_config=1 -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -k --preproc_with_compile --preproc_dependency="RFID/Timer0A0_ISR.d" --obj_directory="RFID" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+RFID/Timer0A1_ISR.obj: ../RFID/Timer0A1_ISR.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power=all --advice:hw_config=1 -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -k --preproc_with_compile --preproc_dependency="RFID/Timer0A1_ISR.d" --obj_directory="RFID" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+RFID/Timer1A0_ISR.obj: ../RFID/Timer1A0_ISR.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power=all --advice:hw_config=1 -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -k --preproc_with_compile --preproc_dependency="RFID/Timer1A0_ISR.d" --obj_directory="RFID" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+RFID/TxFM0.obj: ../RFID/TxFM0.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power=all --advice:hw_config=1 -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -k --preproc_with_compile --preproc_dependency="RFID/TxFM0.d" --obj_directory="RFID" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+RFID/WISP_doRFID.obj: ../RFID/WISP_doRFID.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power=all --advice:hw_config=1 -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -k --preproc_with_compile --preproc_dependency="RFID/WISP_doRFID.d" --obj_directory="RFID" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+RFID/interface.obj: ../RFID/interface.c $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power=all --advice:hw_config=1 -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -k --preproc_with_compile --preproc_dependency="RFID/interface.d" --obj_directory="RFID" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+RFID/rfid_BlockWriteHandle.obj: ../RFID/rfid_BlockWriteHandle.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power=all --advice:hw_config=1 -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -k --preproc_with_compile --preproc_dependency="RFID/rfid_BlockWriteHandle.d" --obj_directory="RFID" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+RFID/rfid_Handles.obj: ../RFID/rfid_Handles.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power=all --advice:hw_config=1 -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -k --preproc_with_compile --preproc_dependency="RFID/rfid_Handles.d" --obj_directory="RFID" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+RFID/rfid_ReadHandle.obj: ../RFID/rfid_ReadHandle.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power=all --advice:hw_config=1 -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -k --preproc_with_compile --preproc_dependency="RFID/rfid_ReadHandle.d" --obj_directory="RFID" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+RFID/rfid_WriteHandle.obj: ../RFID/rfid_WriteHandle.asm $(GEN_OPTS) $(GEN_HDRS)
+	@echo 'Building file: $<'
+	@echo 'Invoking: MSP430 Compiler'
+	"C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/bin/cl430" -vmspx --abi=eabi --data_model=restricted --include_path="C:/ti/ccsv6/ccs_base/msp430/include" --include_path="C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_15.12.1.LTS/include" --advice:power=all --advice:hw_config=1 -g --define=__MSP430FR5969__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -k --preproc_with_compile --preproc_dependency="RFID/rfid_WriteHandle.d" --obj_directory="RFID" $(GEN_OPTS__FLAG) "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+

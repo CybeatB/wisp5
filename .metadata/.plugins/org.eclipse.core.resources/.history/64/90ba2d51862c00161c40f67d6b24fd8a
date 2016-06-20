@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/KLEIN80/klein80.c 
+
+OBJS += \
+./bloc/KLEIN80/klein80.obj 
+
+C_DEPS += \
+./bloc/KLEIN80/klein80.d 
+
+C_DEPS__QUOTED += \
+"bloc\KLEIN80\klein80.d" 
+
+OBJS__QUOTED += \
+"bloc\KLEIN80\klein80.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/KLEIN80/klein80.c" 
+
+

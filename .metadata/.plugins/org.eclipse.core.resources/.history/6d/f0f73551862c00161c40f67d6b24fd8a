@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/LBlock/LBlock.c 
+
+OBJS += \
+./bloc/LBlock/LBlock.obj 
+
+C_DEPS += \
+./bloc/LBlock/LBlock.d 
+
+C_DEPS__QUOTED += \
+"bloc\LBlock\LBlock.d" 
+
+OBJS__QUOTED += \
+"bloc\LBlock\LBlock.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/LBlock/LBlock.c" 
+
+

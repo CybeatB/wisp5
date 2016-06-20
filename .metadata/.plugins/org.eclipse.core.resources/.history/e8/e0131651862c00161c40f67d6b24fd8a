@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/DESXL/desxl.c 
+
+OBJS += \
+./bloc/DESXL/desxl.obj 
+
+C_DEPS += \
+./bloc/DESXL/desxl.d 
+
+C_DEPS__QUOTED += \
+"bloc\DESXL\desxl.d" 
+
+OBJS__QUOTED += \
+"bloc\DESXL\desxl.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/DESXL/desxl.c" 
+
+

@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/SPECK96_96/speck96_96.c 
+
+OBJS += \
+./bloc/SPECK96_96/speck96_96.obj 
+
+C_DEPS += \
+./bloc/SPECK96_96/speck96_96.d 
+
+C_DEPS__QUOTED += \
+"bloc\SPECK96_96\speck96_96.d" 
+
+OBJS__QUOTED += \
+"bloc\SPECK96_96\speck96_96.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/SPECK96_96/speck96_96.c" 
+
+

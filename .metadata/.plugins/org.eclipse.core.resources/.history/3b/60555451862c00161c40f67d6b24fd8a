@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/SEA/sea.c 
+
+OBJS += \
+./bloc/SEA/sea.obj 
+
+C_DEPS += \
+./bloc/SEA/sea.d 
+
+C_DEPS__QUOTED += \
+"bloc\SEA\sea.d" 
+
+OBJS__QUOTED += \
+"bloc\SEA\sea.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/SEA/sea.c" 
+
+

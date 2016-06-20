@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/IDEA/idea.c 
+
+OBJS += \
+./bloc/IDEA/idea.obj 
+
+C_DEPS += \
+./bloc/IDEA/idea.d 
+
+C_DEPS__QUOTED += \
+"bloc\IDEA\idea.d" 
+
+OBJS__QUOTED += \
+"bloc\IDEA\idea.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/IDEA/idea.c" 
+
+

@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/KATAN32/katan32.c 
+
+OBJS += \
+./bloc/KATAN32/katan32.obj 
+
+C_DEPS += \
+./bloc/KATAN32/katan32.d 
+
+C_DEPS__QUOTED += \
+"bloc\KATAN32\katan32.d" 
+
+OBJS__QUOTED += \
+"bloc\KATAN32\katan32.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/KATAN32/katan32.c" 
+
+

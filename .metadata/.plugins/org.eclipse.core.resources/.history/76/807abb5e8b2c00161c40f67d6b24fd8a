@@ -1,0 +1,30 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/AES/aes-naive.c \
+../bloc/AES/aes.c 
+
+OBJS += \
+./bloc/AES/aes-naive.obj \
+./bloc/AES/aes.obj 
+
+C_DEPS += \
+./bloc/AES/aes-naive.d \
+./bloc/AES/aes.d 
+
+C_DEPS__QUOTED += \
+"bloc\AES\aes-naive.d" \
+"bloc\AES\aes.d" 
+
+OBJS__QUOTED += \
+"bloc\AES\aes-naive.obj" \
+"bloc\AES\aes.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/AES/aes-naive.c" \
+"../bloc/AES/aes.c" 
+
+

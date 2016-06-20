@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/KTANTAN48/ktantan48.c 
+
+OBJS += \
+./bloc/KTANTAN48/ktantan48.obj 
+
+C_DEPS += \
+./bloc/KTANTAN48/ktantan48.d 
+
+C_DEPS__QUOTED += \
+"bloc\KTANTAN48\ktantan48.d" 
+
+OBJS__QUOTED += \
+"bloc\KTANTAN48\ktantan48.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/KTANTAN48/ktantan48.c" 
+
+

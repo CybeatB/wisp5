@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/MCRYPTON64/mCrypton64.c 
+
+OBJS += \
+./bloc/MCRYPTON64/mCrypton64.obj 
+
+C_DEPS += \
+./bloc/MCRYPTON64/mCrypton64.d 
+
+C_DEPS__QUOTED += \
+"bloc\MCRYPTON64\mCrypton64.d" 
+
+OBJS__QUOTED += \
+"bloc\MCRYPTON64\mCrypton64.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/MCRYPTON64/mCrypton64.c" 
+
+

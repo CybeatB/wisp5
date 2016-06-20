@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/MCRYPTON128/mCrypton128.c 
+
+OBJS += \
+./bloc/MCRYPTON128/mCrypton128.obj 
+
+C_DEPS += \
+./bloc/MCRYPTON128/mCrypton128.d 
+
+C_DEPS__QUOTED += \
+"bloc\MCRYPTON128\mCrypton128.d" 
+
+OBJS__QUOTED += \
+"bloc\MCRYPTON128\mCrypton128.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/MCRYPTON128/mCrypton128.c" 
+
+

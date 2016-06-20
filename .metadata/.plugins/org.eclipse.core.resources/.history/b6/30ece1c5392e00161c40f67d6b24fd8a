@@ -1,0 +1,30 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/AES/templates/block-modes.c \
+../bloc/AES/templates/cmac.c 
+
+OBJS += \
+./bloc/AES/templates/block-modes.obj \
+./bloc/AES/templates/cmac.obj 
+
+C_DEPS += \
+./bloc/AES/templates/block-modes.d \
+./bloc/AES/templates/cmac.d 
+
+C_DEPS__QUOTED += \
+"bloc\AES\templates\block-modes.d" \
+"bloc\AES\templates\cmac.d" 
+
+OBJS__QUOTED += \
+"bloc\AES\templates\block-modes.obj" \
+"bloc\AES\templates\cmac.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/AES/templates/block-modes.c" \
+"../bloc/AES/templates/cmac.c" 
+
+

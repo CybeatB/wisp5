@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/MIBS64/mibs64.c 
+
+OBJS += \
+./bloc/MIBS64/mibs64.obj 
+
+C_DEPS += \
+./bloc/MIBS64/mibs64.d 
+
+C_DEPS__QUOTED += \
+"bloc\MIBS64\mibs64.d" 
+
+OBJS__QUOTED += \
+"bloc\MIBS64\mibs64.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/MIBS64/mibs64.c" 
+
+

@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/PRESENT_SIZE/present_size.c 
+
+OBJS += \
+./bloc/PRESENT_SIZE/present_size.obj 
+
+C_DEPS += \
+./bloc/PRESENT_SIZE/present_size.d 
+
+C_DEPS__QUOTED += \
+"bloc\PRESENT_SIZE\present_size.d" 
+
+OBJS__QUOTED += \
+"bloc\PRESENT_SIZE\present_size.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/PRESENT_SIZE/present_size.c" 
+
+

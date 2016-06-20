@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../rand/rand.c 
+
+OBJS += \
+./rand/rand.obj 
+
+C_DEPS += \
+./rand/rand.d 
+
+C_DEPS__QUOTED += \
+"rand\rand.d" 
+
+OBJS__QUOTED += \
+"rand\rand.obj" 
+
+C_SRCS__QUOTED += \
+"../rand/rand.c" 
+
+

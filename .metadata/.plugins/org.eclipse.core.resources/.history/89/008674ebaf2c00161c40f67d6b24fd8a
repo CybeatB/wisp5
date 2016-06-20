@@ -1,0 +1,98 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+ASM_SRCS += \
+../RFID/Clocking.asm \
+../RFID/RX_ISR.asm \
+../RFID/Timer0A0_ISR.asm \
+../RFID/Timer0A1_ISR.asm \
+../RFID/Timer1A0_ISR.asm \
+../RFID/TxFM0.asm \
+../RFID/WISP_doRFID.asm \
+../RFID/rfid_BlockWriteHandle.asm \
+../RFID/rfid_Handles.asm \
+../RFID/rfid_ReadHandle.asm \
+../RFID/rfid_WriteHandle.asm 
+
+C_SRCS += \
+../RFID/interface.c 
+
+OBJS += \
+./RFID/Clocking.obj \
+./RFID/RX_ISR.obj \
+./RFID/Timer0A0_ISR.obj \
+./RFID/Timer0A1_ISR.obj \
+./RFID/Timer1A0_ISR.obj \
+./RFID/TxFM0.obj \
+./RFID/WISP_doRFID.obj \
+./RFID/interface.obj \
+./RFID/rfid_BlockWriteHandle.obj \
+./RFID/rfid_Handles.obj \
+./RFID/rfid_ReadHandle.obj \
+./RFID/rfid_WriteHandle.obj 
+
+ASM_DEPS += \
+./RFID/Clocking.d \
+./RFID/RX_ISR.d \
+./RFID/Timer0A0_ISR.d \
+./RFID/Timer0A1_ISR.d \
+./RFID/Timer1A0_ISR.d \
+./RFID/TxFM0.d \
+./RFID/WISP_doRFID.d \
+./RFID/rfid_BlockWriteHandle.d \
+./RFID/rfid_Handles.d \
+./RFID/rfid_ReadHandle.d \
+./RFID/rfid_WriteHandle.d 
+
+C_DEPS += \
+./RFID/interface.d 
+
+C_DEPS__QUOTED += \
+"RFID\interface.d" 
+
+OBJS__QUOTED += \
+"RFID\Clocking.obj" \
+"RFID\RX_ISR.obj" \
+"RFID\Timer0A0_ISR.obj" \
+"RFID\Timer0A1_ISR.obj" \
+"RFID\Timer1A0_ISR.obj" \
+"RFID\TxFM0.obj" \
+"RFID\WISP_doRFID.obj" \
+"RFID\interface.obj" \
+"RFID\rfid_BlockWriteHandle.obj" \
+"RFID\rfid_Handles.obj" \
+"RFID\rfid_ReadHandle.obj" \
+"RFID\rfid_WriteHandle.obj" 
+
+ASM_DEPS__QUOTED += \
+"RFID\Clocking.d" \
+"RFID\RX_ISR.d" \
+"RFID\Timer0A0_ISR.d" \
+"RFID\Timer0A1_ISR.d" \
+"RFID\Timer1A0_ISR.d" \
+"RFID\TxFM0.d" \
+"RFID\WISP_doRFID.d" \
+"RFID\rfid_BlockWriteHandle.d" \
+"RFID\rfid_Handles.d" \
+"RFID\rfid_ReadHandle.d" \
+"RFID\rfid_WriteHandle.d" 
+
+ASM_SRCS__QUOTED += \
+"../RFID/Clocking.asm" \
+"../RFID/RX_ISR.asm" \
+"../RFID/Timer0A0_ISR.asm" \
+"../RFID/Timer0A1_ISR.asm" \
+"../RFID/Timer1A0_ISR.asm" \
+"../RFID/TxFM0.asm" \
+"../RFID/WISP_doRFID.asm" \
+"../RFID/rfid_BlockWriteHandle.asm" \
+"../RFID/rfid_Handles.asm" \
+"../RFID/rfid_ReadHandle.asm" \
+"../RFID/rfid_WriteHandle.asm" 
+
+C_SRCS__QUOTED += \
+"../RFID/interface.c" 
+
+

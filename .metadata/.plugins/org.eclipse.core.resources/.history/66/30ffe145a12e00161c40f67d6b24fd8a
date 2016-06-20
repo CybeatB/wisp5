@@ -1,0 +1,38 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+ASM_SRCS += \
+../Math/crc16_ccitt.asm 
+
+C_SRCS += \
+../Math/crc16_LUT.c 
+
+OBJS += \
+./Math/crc16_LUT.obj \
+./Math/crc16_ccitt.obj 
+
+ASM_DEPS += \
+./Math/crc16_ccitt.d 
+
+C_DEPS += \
+./Math/crc16_LUT.d 
+
+C_DEPS__QUOTED += \
+"Math\crc16_LUT.d" 
+
+OBJS__QUOTED += \
+"Math\crc16_LUT.obj" \
+"Math\crc16_ccitt.obj" 
+
+ASM_DEPS__QUOTED += \
+"Math\crc16_ccitt.d" 
+
+C_SRCS__QUOTED += \
+"../Math/crc16_LUT.c" 
+
+ASM_SRCS__QUOTED += \
+"../Math/crc16_ccitt.asm" 
+
+

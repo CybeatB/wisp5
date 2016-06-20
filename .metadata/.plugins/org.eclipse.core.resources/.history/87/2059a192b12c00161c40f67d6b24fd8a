@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../Sensors/accel.c 
+
+OBJS += \
+./Sensors/accel.obj 
+
+C_DEPS += \
+./Sensors/accel.d 
+
+C_DEPS__QUOTED += \
+"Sensors\accel.d" 
+
+OBJS__QUOTED += \
+"Sensors\accel.obj" 
+
+C_SRCS__QUOTED += \
+"../Sensors/accel.c" 
+
+

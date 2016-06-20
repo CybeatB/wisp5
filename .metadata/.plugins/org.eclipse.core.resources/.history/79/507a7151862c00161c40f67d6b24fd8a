@@ -1,0 +1,24 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../bloc/TWINE80/twine80.c 
+
+OBJS += \
+./bloc/TWINE80/twine80.obj 
+
+C_DEPS += \
+./bloc/TWINE80/twine80.d 
+
+C_DEPS__QUOTED += \
+"bloc\TWINE80\twine80.d" 
+
+OBJS__QUOTED += \
+"bloc\TWINE80\twine80.obj" 
+
+C_SRCS__QUOTED += \
+"../bloc/TWINE80/twine80.c" 
+
+

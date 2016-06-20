@@ -1,0 +1,38 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+ASM_SRCS += \
+../internals/NOPdefs.asm 
+
+C_SRCS += \
+../internals/wisp-init.c 
+
+OBJS += \
+./internals/NOPdefs.obj \
+./internals/wisp-init.obj 
+
+ASM_DEPS += \
+./internals/NOPdefs.d 
+
+C_DEPS += \
+./internals/wisp-init.d 
+
+C_DEPS__QUOTED += \
+"internals\wisp-init.d" 
+
+OBJS__QUOTED += \
+"internals\NOPdefs.obj" \
+"internals\wisp-init.obj" 
+
+ASM_DEPS__QUOTED += \
+"internals\NOPdefs.d" 
+
+ASM_SRCS__QUOTED += \
+"../internals/NOPdefs.asm" 
+
+C_SRCS__QUOTED += \
+"../internals/wisp-init.c" 
+
+
