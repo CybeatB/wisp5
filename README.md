@@ -1,3 +1,41 @@
+
+CRFID Reader Authentication Protocol Demo
+====
+
+This is the code repository for the CRFID Reader Authentication Protocol Demo
+The name 'CRFIDVirus' is an artefact of this project's past, and should be changed at some point.
+Much of the source code for this project was borrowed from the WISP5 project, the BLOC project, and the Impinj Octane SDK.
+ * WISP5: http://github.com/wisp/wisp5
+ * BLOC: https://github.com/kmarquet/bloc
+ * Impinj Ocatne SDK: https://support.impinj.com/hc/en-us/articles/202755268-Octane-SDK
+
+Layout
+----
+
+This project consists of two major components, the tag firmware (based on the WISP5) and the reader software (based on Octane SDK).
+The AES Cipher as implemented by the BLOC project is used in both the tag and client applications.
+Some modifications were made to the BLOC source files, which allowed them to be compiled and linked into the reader software.
+The tag firmware is located in the CRIFDVirusDemo directory.
+The BLOC source code is located in CRIFDVirusDemo/bloc.
+The reader software is located in client/CRFIDVirus.
+The Impinj Octane SDK is included in the client directory.
+The report which accompanies this project is in the report directory.
+
+
+Known Bugs
+----
+
+ * The makefile provided for the reader software is non-portable, and unlikely to work on a system which is configured differently to mine.
+ * Running the client software for extended periods of time will cause it to crash.
+ * The tag firmware currently stores important variables in volatile memory, and so does not work unless the tag is connected to a debugger.
+ * The legality of including the Octane SDK in this repository is unknown.
+
+
+
+Everything below this line is the README.md for the WISP5.
+
+- - - - -
+
 WISP 5
 ====
 
